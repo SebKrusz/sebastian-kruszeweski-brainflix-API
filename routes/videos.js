@@ -30,7 +30,7 @@ router.post("/", (req, res) => {
     id: uuidv4(),
     title: title,
     description: description,
-    image: image,
+    image: "http://localhost:8080/images/upload.jpg",
     views: "0",
     likes: "0",
     channel: "Channel Name",
